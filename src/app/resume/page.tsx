@@ -75,14 +75,14 @@ export default function ResumePage() {
             <div className="space-y-8">
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Researcher</h3>
+                <h3 className="text-xl font-semibold">Research Fellow</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
                   <div className="text-gray-700 font-medium">Columbia SIPA Innovation Lab</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2021 - Present</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2023 - Present</div>
                 </div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Lead research initiatives on technology policy, digital governance, and AI ethics</li>
-                  <li>Collaborate with interdisciplinary teams to develop policy recommendations and open-source tools</li>
+                  <li>Lead research on technology policy, digital governance, and AI ethics</li>
+                  <li>Develop policy recommendations and open-source tools for responsible AI development</li>
                   <li>Conduct stakeholder interviews and policy analysis across multiple jurisdictions</li>
                   <li>Present research findings at academic conferences and policy forums</li>
                 </ul>
@@ -90,31 +90,16 @@ export default function ResumePage() {
               
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Technology Policy Fellow</h3>
+                <h3 className="text-xl font-semibold">Research Assistant</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
-                  <div className="text-gray-700 font-medium">Tech Policy Institute</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2019 - 2021</div>
+                  <div className="text-gray-700 font-medium">Columbia SIPA Innovation Lab</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2021 - 2023</div>
                 </div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
                   <li>Conducted research on emerging technology regulations and data governance frameworks</li>
                   <li>Analyzed public-private partnerships in technology development</li>
                   <li>Authored policy briefs and reports for policymakers and industry stakeholders</li>
                   <li>Organized workshops on responsible technology deployment</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
-                <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Graduate Research Assistant</h3>
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
-                  <div className="text-gray-700 font-medium">Columbia University</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2017 - 2019</div>
-                </div>
-                <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Assisted with research projects examining technology policy formation and digital rights</li>
-                  <li>Investigated societal impacts of algorithmic decision-making</li>
-                  <li>Collected and analyzed data for comparative policy studies</li>
-                  <li>Contributed to academic publications and conference presentations</li>
                 </ul>
               </div>
             </div>
@@ -136,7 +121,7 @@ export default function ResumePage() {
                 <h3 className="text-xl font-semibold">Master of International Affairs</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-2">
                   <div className="text-gray-700 font-medium">Columbia School of International and Public Affairs</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2019</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2021</div>
                 </div>
                 <p className="text-gray-700">Specialization in Technology, Media, and Communications</p>
                 <p className="italic text-gray-600 mt-1">Thesis: "Digital Governance Frameworks for Emerging Technologies"</p>
@@ -147,7 +132,7 @@ export default function ResumePage() {
                 <h3 className="text-xl font-semibold">Bachelor of Arts in Political Science</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-2">
                   <div className="text-gray-700 font-medium">University of Chicago</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2017</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2019</div>
                 </div>
                 <p className="text-gray-700">Minor in Computer Science</p>
                 <p className="italic text-gray-600 mt-1">Honors Program, Dean's List, 3.92/4.0 GPA</p>
@@ -275,11 +260,11 @@ export default function ResumePage() {
                   
                   <div>
                     <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">AI Safety Testing</span>
-                      <span className="text-sm text-gray-600">Advanced</span>
+                      <span className="text-sm text-gray-700">SQL</span>
+                      <span className="text-sm text-gray-600">Intermediate</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '80%' }}></div>
+                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '70%' }}></div>
                     </div>
                   </div>
                 </div>
@@ -320,20 +305,10 @@ export default function ResumePage() {
               <div>
                 <div className="flex justify-between mb-1">
                   <span className="text-sm text-gray-700">Spanish</span>
-                  <span className="text-sm text-gray-600">Fluent</span>
+                  <span className="text-sm text-gray-600">Advanced</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-1.5">
                   <div className="bg-primary h-1.5 rounded-full" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-              
-              <div>
-                <div className="flex justify-between mb-1">
-                  <span className="text-sm text-gray-700">French</span>
-                  <span className="text-sm text-gray-600">Intermediate</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-1.5">
-                  <div className="bg-primary h-1.5 rounded-full" style={{ width: '65%' }}></div>
                 </div>
               </div>
             </div>

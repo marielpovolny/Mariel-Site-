@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Publications | Mariel Povolny',
-  description: 'Articles and publications by Mariel Povolny on technology policy, digital governance, and AI impact research.',
+  title: 'Publications & Projects | Mariel Povolny',
+  description: 'Publications and projects by Mariel Povolny, including articles in Tech Policy Press, Columbia Academic Commons publications, and contributions to open-source projects.',
 };
 
 // Publication data - in a real site, this would likely come from a CMS or API
@@ -100,155 +100,100 @@ const academicPublications = [
 
 export default function PublicationsPage() {
   return (
-    <div className="flex flex-col gap-12">
-      <section>
-        <h1 className="text-4xl font-bold mb-6">Publications</h1>
-        <p className="text-lg mb-8">
-          As a researcher focused on technology policy, I regularly publish articles, papers, and analyses 
-          that explore the intersection of technology, governance, and society. My writing aims to bridge 
-          academic rigor with practical policy insights.
+    <div className="animate-fade-in">
+      {/* Header section */}
+      <section className="mb-10">
+        <h1 className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Publications & Projects</h1>
+        <p className="text-lg text-gray-600 max-w-2xl text-pretty">
+          A collection of my published work, research contributions, and open-source projects in technology policy and digital governance.
         </p>
       </section>
 
-      {/* Featured Publication */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Featured Publication</h2>
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border border-blue-100">
-          <div className="flex flex-col md:flex-row gap-8">
-            <div className="flex-1">
-              <span className="text-blue-600 font-medium">Tech Policy Press • May 2023</span>
-              <h3 className="text-2xl font-bold my-2">Digital Governance Framework for Emerging Technologies</h3>
-              <p className="mb-4 text-gray-700">
-                This article proposes a comprehensive framework for governing emerging technologies that balances 
-                innovation with public interest considerations. Drawing from case studies across multiple jurisdictions, 
-                it offers practical guidance for policymakers seeking to develop effective and adaptable governance structures.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Digital Governance</span>
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Policy Framework</span>
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Emerging Tech</span>
-              </div>
-              <a 
-                href="https://www.techpolicy.press/author/mariel-povolny/"
-                target="_blank"
-                rel="noopener noreferrer" 
-                className="inline-block px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-              >
-                Read Full Article
-              </a>
-            </div>
-            <div className="w-full md:w-1/3 bg-white p-4 rounded-lg shadow-sm">
-              <div className="h-48 bg-blue-100 rounded mb-4 flex items-center justify-center">
-                <span className="text-blue-500">Publication Cover</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-gray-200 rounded-full mr-2 flex items-center justify-center">
-                    <span className="text-xs text-gray-500">TP</span>
-                  </div>
-                  <span className="text-gray-600 text-sm">Tech Policy Press</span>
-                </div>
-                <span className="text-gray-500 text-sm">May 15, 2023</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Articles */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Articles & Essays</h2>
+      {/* Tech Policy Press Articles */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-gray-200 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          </svg>
+          Tech Policy Press Articles
+        </h2>
+        
         <div className="space-y-6">
-          {publications.map((pub) => (
-            <div key={pub.id} className="border-b pb-6">
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl font-semibold">{pub.title}</h3>
-                <span className="text-gray-500 text-sm whitespace-nowrap ml-4">{pub.date}</span>
-              </div>
-              <p className="text-gray-600 mb-2">Published in <span className="font-medium">{pub.publisher}</span></p>
-              <p className="text-gray-700 mb-3">{pub.abstract}</p>
-              <div className="flex flex-wrap gap-2 mb-3">
-                {pub.tags.map((tag, index) => (
-                  <span key={index} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">
-                    {tag}
-                  </span>
-                ))}
-              </div>
+          <article className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">
               <a 
-                href={pub.link} 
+                href="https://www.techpolicy.press/author/mariel-povolny/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline inline-flex items-center"
+                className="text-gray-900 hover:text-primary"
               >
-                Read article
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
+                View all articles on Tech Policy Press
               </a>
-            </div>
-          ))}
+            </h3>
+            <p className="text-gray-600">
+              Regular contributor to Tech Policy Press, writing on technology policy, digital governance, and AI ethics.
+            </p>
+          </article>
         </div>
       </section>
 
-      {/* Academic Publications */}
-      <section>
-        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Academic Publications</h2>
-        <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
-              <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Publication
-                </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Journal
-                </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Year
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              {academicPublications.map((pub, index) => (
-                <tr key={index} className="hover:bg-gray-50">
-                  <td className="px-6 py-4">
-                    <div className="text-sm font-medium text-gray-900">{pub.title}</div>
-                    <div className="text-sm text-gray-500">{pub.authors}</div>
-                  </td>
-                  <td className="px-6 py-4">
-                    <div className="text-sm text-gray-900">{pub.journal}</div>
-                    <div className="text-sm text-gray-500">Vol. {pub.volume}, Issue {pub.issue}, pp. {pub.pages}</div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                    {pub.year}
-                    <div>
-                      <a 
-                        href={`https://doi.org/${pub.doi}`} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline text-xs"
-                      >
-                        DOI: {pub.doi}
-                      </a>
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      {/* Columbia Academic Commons */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-gray-200 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+          </svg>
+          Columbia Academic Commons
+        </h2>
+        
+        <div className="space-y-6">
+          <article className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">
+              <a 
+                href="https://academiccommons.columbia.edu/doi/10.7916/rrpw-jk12" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-900 hover:text-primary"
+              >
+                View publication on Columbia Academic Commons
+              </a>
+            </h3>
+            <p className="text-gray-600">
+              Research publication available through Columbia University's Academic Commons repository.
+            </p>
+          </article>
         </div>
       </section>
 
-      <div className="flex justify-center mt-8">
-        <a 
-          href="https://www.techpolicy.press/author/mariel-povolny/"
-          target="_blank"
-          rel="noopener noreferrer" 
-          className="px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 transition-colors"
-        >
-          View all articles on Tech Policy Press
-        </a>
-      </div>
+      {/* Open Source Contributions */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-gray-200 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          Open Source Contributions
+        </h2>
+        
+        <div className="space-y-6">
+          <article className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">
+              <a 
+                href="https://github.com/Tooling-Consortium/awesome-safety-tools" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-900 hover:text-primary"
+              >
+                Awesome Safety Tools
+              </a>
+            </h3>
+            <p className="text-gray-600">
+              Contributor to the Awesome Safety Tools repository, a curated list of tools and resources for AI safety and alignment.
+            </p>
+          </article>
+        </div>
+      </section>
     </div>
   );
 } 
