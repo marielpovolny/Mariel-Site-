@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Resume | Mariel Povolny',
-  description: 'Professional resume of Mariel Povolny, researcher at Columbia SIPA Innovation Lab specializing in technology policy and digital governance.',
+  description: 'Professional resume of Mariel Povolny, researcher and consultant specializing in technology policy, digital governance, and AI ethics.',
 };
 
 export default function ResumePage() {
@@ -35,7 +35,7 @@ export default function ResumePage() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            <span>contact@marielpovolny.com</span>
+            <span>marielpovolny@columbia.edu</span>
           </div>
           <div className="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -50,12 +50,12 @@ export default function ResumePage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 015.656 0l4 4a4 4 0 01-5.656 5.656l-1.102-1.101" />
             </svg>
             <a 
-              href="https://www.linkedin.com/in/mariel-povolny-b0b653178/" 
+              href="https://www.linkedin.com/in/marielpovolny" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary-dark"
             >
-              linkedin.com/in/mariel-povolny
+              linkedin.com/in/marielpovolny
             </a>
           </div>
         </div>
@@ -75,31 +75,71 @@ export default function ResumePage() {
             <div className="space-y-8">
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Research Fellow</h3>
+                <h3 className="text-xl font-semibold">Graduate Consultant</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
-                  <div className="text-gray-700 font-medium">Columbia SIPA Innovation Lab</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2023 - Present</div>
+                  <div className="text-gray-700 font-medium">Ministry of Foreign Affairs of Estonia</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">December 2024 - Present</div>
                 </div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Lead research on technology policy, digital governance, and AI ethics</li>
-                  <li>Develop policy recommendations and open-source tools for responsible AI development</li>
-                  <li>Conduct stakeholder interviews and policy analysis across multiple jurisdictions</li>
-                  <li>Present research findings at academic conferences and policy forums</li>
+                  <li>Supporting Estonia in its role as Chair of the Freedom Online Coalition for 2025</li>
+                  <li>Conducting research and interviews for a project exploring international collaboration on Digital Public Infrastructure (DPI)</li>
+                  <li>Assisting with policy development and multilateral engagement strategies to advance digital rights and internet freedom</li>
                 </ul>
               </div>
-              
+
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Research Assistant</h3>
+                <h3 className="text-xl font-semibold">Researcher</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
-                  <div className="text-gray-700 font-medium">Columbia SIPA Innovation Lab</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2021 - 2023</div>
+                  <div className="text-gray-700 font-medium">T&S Tooling Consortium, Institute of Global Politics, Columbia SIPA</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">May 2024 - Present</div>
                 </div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Conducted research on emerging technology regulations and data governance frameworks</li>
-                  <li>Analyzed public-private partnerships in technology development</li>
-                  <li>Authored policy briefs and reports for policymakers and industry stakeholders</li>
-                  <li>Organized workshops on responsible technology deployment</li>
+                  <li>Conducted 50+ interviews with Trust & Safety leaders on open-source tooling to promote transparency</li>
+                  <li>Co-authored an upcoming chapter in the Journal of Online Trust and Safety on the state of Trust & Safety tooling</li>
+                  <li>Contributed to research on openness in AI, red-teaming AI systems, and AI risk taxonomies</li>
+                  <li>Worked on the research team that helped launch ROOST, now an independent nonprofit</li>
+                </ul>
+              </div>
+
+              <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
+                <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
+                <h3 className="text-xl font-semibold">Cyber Risk Intern</h3>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
+                  <div className="text-gray-700 font-medium">Next Peak & Cyber Defense Assistance Collaborative (CDAC)</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">May 2024 - August 2024</div>
+                </div>
+                <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+                  <li>Managed cyber risk consulting engagements, including proposal development and stakeholder coordination</li>
+                  <li>Analyzed international cyber defense assistance provided to Ukraine via the CDAC</li>
+                  <li>Supported the planning and implementation of SOC development strategies, integrating cybersecurity tools to safeguard Costa Rica's critical infrastructure</li>
+                </ul>
+              </div>
+
+              <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
+                <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
+                <h3 className="text-xl font-semibold">Teaching Assistant</h3>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
+                  <div className="text-gray-700 font-medium">Columbia SIPA</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">January 2024 - May 2024</div>
+                </div>
+                <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+                  <li>Assisted in the Spring 2024 Ethics in Technology, Media, and Design course by leading weekly discussions and designing curriculum</li>
+                  <li>Co-authored a 100-page collection of case studies on ethical technology issues</li>
+                </ul>
+              </div>
+
+              <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
+                <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
+                <h3 className="text-xl font-semibold">Research Associate, Technology Practice</h3>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-3">
+                  <div className="text-gray-700 font-medium">Oxford Economics</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">October 2022 - September 2023</div>
+                </div>
+                <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+                  <li>Designed and fielded original surveys on topics including cybersecurity, digital transformation, and data interoperability</li>
+                  <li>Developed briefing papers, case studies, and analysis presentations for global clients</li>
+                  <li>Created data-driven insights on technology trends for Fortune 500 companies</li>
                 </ul>
               </div>
             </div>
@@ -118,62 +158,23 @@ export default function ResumePage() {
             <div className="space-y-6">
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Master of International Affairs</h3>
+                <h3 className="text-xl font-semibold">Master of International Affairs in Technology Policy and Innovation</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-2">
-                  <div className="text-gray-700 font-medium">Columbia School of International and Public Affairs</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2021</div>
+                  <div className="text-gray-700 font-medium">Columbia University</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">September 2023 - June 2025</div>
                 </div>
-                <p className="text-gray-700">Specialization in Technology, Media, and Communications</p>
-                <p className="italic text-gray-600 mt-1">Thesis: "Digital Governance Frameworks for Emerging Technologies"</p>
+                <p className="text-gray-700">President, Digital & Cyber Group (2023-2024)</p>
               </div>
               
               <div className="relative pl-8 before:absolute before:left-0 before:top-1 before:bottom-0 before:w-0.5 before:bg-primary-light">
                 <div className="absolute left-0 top-1 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2"></div>
-                <h3 className="text-xl font-semibold">Bachelor of Arts in Political Science</h3>
+                <h3 className="text-xl font-semibold">Bachelor of Arts in International Development, Arabic</h3>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-2">
-                  <div className="text-gray-700 font-medium">University of Chicago</div>
-                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">2019</div>
+                  <div className="text-gray-700 font-medium">McGill University</div>
+                  <div className="text-gray-600 text-sm bg-gray-100 px-3 py-1 rounded-full">September 2017 - June 2021</div>
                 </div>
-                <p className="text-gray-700">Minor in Computer Science</p>
-                <p className="italic text-gray-600 mt-1">Honors Program, Dean's List, 3.92/4.0 GPA</p>
-              </div>
-            </div>
-          </section>
-          
-          <section aria-labelledby="publications-title">
-            <h2 id="publications-title" className="text-2xl font-bold mb-6 pb-2 border-b border-gray-200 flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-              </svg>
-              Selected Publications
-            </h2>
-            
-            <div className="space-y-4">
-              <div>
-                <h3 className="font-semibold">Digital Governance Framework for Emerging Technologies</h3>
-                <p className="text-gray-600 text-sm">Tech Policy Press, May 2023</p>
-              </div>
-              
-              <div>
-                <h3 className="font-semibold">Ethical Considerations in AI Deployment</h3>
-                <p className="text-gray-600 text-sm">Tech Policy Press, January 2023</p>
-              </div>
-              
-              <div>
-                <h3 className="font-semibold">Red-Teaming Strategies for Identifying AI System Vulnerabilities</h3>
-                <p className="text-gray-600 text-sm">Journal of Technology Policy, Vol. 8(2), 2023</p>
-              </div>
-              
-              <div className="mt-4">
-                <Link 
-                  href="/publications" 
-                  className="text-primary hover:text-primary-dark flex items-center gap-1 text-sm"
-                >
-                  View all publications
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </Link>
+                <p className="text-gray-700">First Class Honors in International Development</p>
+                <p className="italic text-gray-600 mt-1">Exchange semester at the American University of Beirut (Fall 2019), Intensive Arabic Program at the American University in Cairo (Spring 2020)</p>
               </div>
             </div>
           </section>
@@ -191,98 +192,25 @@ export default function ResumePage() {
             
             <div className="space-y-4">
               <div>
-                <h3 className="font-medium mb-2">Research & Analysis</h3>
-                <div className="space-y-2">
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">Policy Analysis</span>
-                      <span className="text-sm text-gray-600">Expert</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '95%' }}></div>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">Qualitative Research</span>
-                      <span className="text-sm text-gray-600">Expert</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '90%' }}></div>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">Data Analysis</span>
-                      <span className="text-sm text-gray-600">Advanced</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '80%' }}></div>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">Red-Teaming Methods</span>
-                      <span className="text-sm text-gray-600">Expert</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '95%' }}></div>
-                    </div>
-                  </div>
-                </div>
+                <h3 className="font-medium mb-2">Research & Policy Analysis</h3>
+                <ul className="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                  <li>Policy Writing</li>
+                  <li>Qualitative & Quantitative Research</li>
+                  <li>Stakeholder Engagement</li>
+                </ul>
               </div>
               
               <div>
-                <h3 className="font-medium mb-2">Technical Skills</h3>
-                <div className="space-y-2">
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">Python</span>
-                      <span className="text-sm text-gray-600">Advanced</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '85%' }}></div>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">R</span>
-                      <span className="text-sm text-gray-600">Intermediate</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '70%' }}></div>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm text-gray-700">SQL</span>
-                      <span className="text-sm text-gray-600">Intermediate</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                      <div className="bg-primary h-1.5 rounded-full" style={{ width: '70%' }}></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div>
-                <h3 className="font-medium mb-2">Communication & Leadership</h3>
-                <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-                  <li>Research Presentation</li>
-                  <li>Policy Brief Writing</li>
-                  <li>Stakeholder Management</li>
-                  <li>Cross-functional Team Leadership</li>
-                  <li>Project Management</li>
+                <h3 className="font-medium mb-2">Cyber & Digital Governance</h3>
+                <ul className="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                  <li>AI Risk Assessment</li>
+                  <li>Cybersecurity Frameworks</li>
+                  <li>Trust & Safety</li>
                 </ul>
               </div>
             </div>
           </section>
-          
+
           <section aria-labelledby="languages-title" className="bg-gray-50 rounded-lg p-6 border border-gray-200">
             <h2 id="languages-title" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200 flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -291,69 +219,22 @@ export default function ResumePage() {
               Languages
             </h2>
             
-            <div className="space-y-3">
-              <div>
-                <div className="flex justify-between mb-1">
-                  <span className="text-sm text-gray-700">English</span>
-                  <span className="text-sm text-gray-600">Native</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-1.5">
-                  <div className="bg-primary h-1.5 rounded-full" style={{ width: '100%' }}></div>
-                </div>
-              </div>
-              
-              <div>
-                <div className="flex justify-between mb-1">
-                  <span className="text-sm text-gray-700">Spanish</span>
-                  <span className="text-sm text-gray-600">Advanced</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-1.5">
-                  <div className="bg-primary h-1.5 rounded-full" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-            </div>
+            <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+              <li>Arabic (Working Proficiency)</li>
+              <li>English (Native)</li>
+            </ul>
           </section>
-          
+
           <section aria-labelledby="awards-title" className="bg-gray-50 rounded-lg p-6 border border-gray-200">
             <h2 id="awards-title" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200 flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Awards & Honors
+              Awards & Scholarships
             </h2>
             
-            <ul className="space-y-3 text-sm text-gray-700">
-              <li className="flex items-start gap-2">
-                <span className="text-primary">•</span>
-                <div>
-                  <p className="font-medium">Technology Policy Innovation Award</p>
-                  <p className="text-gray-600">Columbia SIPA, 2022</p>
-                </div>
-              </li>
-              
-              <li className="flex items-start gap-2">
-                <span className="text-primary">•</span>
-                <div>
-                  <p className="font-medium">Best Paper Award</p>
-                  <p className="text-gray-600">Digital Policy Conference, 2021</p>
-                </div>
-              </li>
-              
-              <li className="flex items-start gap-2">
-                <span className="text-primary">•</span>
-                <div>
-                  <p className="font-medium">SIPA Merit Fellowship</p>
-                  <p className="text-gray-600">Columbia University, 2017-2019</p>
-                </div>
-              </li>
-              
-              <li className="flex items-start gap-2">
-                <span className="text-primary">•</span>
-                <div>
-                  <p className="font-medium">Phi Beta Kappa</p>
-                  <p className="text-gray-600">University of Chicago, 2017</p>
-                </div>
-              </li>
+            <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+              <li>Foreign Language Area Scholarship, Middle East Department of Education (September 2023)</li>
             </ul>
           </section>
         </div>
